@@ -1,9 +1,9 @@
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: black;
+  background-color: white;
   font-weight: normal;
   line-height: 1;
-  color: #272727;
+  color: white;
   height: 100%;
   }
 
@@ -11,7 +11,7 @@ body {
 
 header {
 	height: 7rem;
-	background-color: #020202;
+	background-color:white;
 	color: #cccccc;
 	transition-property: height;
 	transition-duration: .5s;
@@ -21,14 +21,18 @@ header {
   position: absolute;
   z-index: 101;
   width: 100vw;
+
 }
 
 .fixed{
   position: fixed;
-  background-color: #020202;
+  background-color: white;
   left: 0;
   top: 0;
   width: 100vw;
+  -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
 }
 
 .header-logo {
@@ -40,7 +44,7 @@ header {
   -webkit-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
   position: absolute;
-  top: 4rem;
+  top: 3.6rem;
   left: 4.8rem;
 }
 
@@ -48,17 +52,20 @@ header {
 .header-logo::before {
   content:"";
   display: block;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   height: 0.1rem;
   position: absolute;
   width: 3.6rem;
   left: -4.8rem;
-  top:1.7rem;
+  top:2.2rem;
   }
 
 .header-logo img {
-  width: 40px;
-  height: 31px;
+  width: 45px;
+}
+
+.licht{
+  display: none;
 }
 
 /*menu toggle*/
@@ -68,12 +75,25 @@ header {
 	top: 2.2rem;
 	right: 3rem;
 }
-
-
+/*
 .hamburger .lijn{
   width: 3rem;
   height: .1rem;
   background-color: white;
+  display: block;
+  margin: .7rem auto;
+  transition: all 0.3s ease-in-out;
+}
+
+div.actief .lijn:nth-child(2){opacity: 0;}
+div.actief .lijn:nth-child(1){transform: translateY(1rem) rotate(45deg);}
+div.actief .lijn:nth-child(3){transform: translateY(-.6rem) rotate(-45deg);}
+*/
+
+.hamburger .lijn{
+  width: 3rem;
+  height: .1rem;
+  background-color: #292627;
   display: block;
   margin: .7rem auto;
   transition: all 0.3s ease-in-out;
@@ -94,23 +114,9 @@ div.actief .lijn:nth-child(3){
   -o-transform: translateX(100%);
   transform: translateX(100%);}
 
-/*
-.hamburger .lijn{
-  width: 3rem;
-  height: .1rem;
-  background-color: white;
-  display: block;
-  margin: .7rem auto;
-  transition: all 0.5s ease-in-out;
-}
-
-div.actief .lijn:nth-child(2){opacity: 0;}
-div.actief .lijn:nth-child(1){transform: translateY(1rem) rotate(45deg);}
-div.actief .lijn:nth-child(3){transform: translateY(-.6rem) rotate(-45deg);}
-*/
 header.uitgeklapt {
 	height: 100vh;
-  background-color: black;
+  background-color: white;
 }
 
 .hamburger:hover{
@@ -118,7 +124,7 @@ header.uitgeklapt {
 }
 
 .hamburger:hover .lijn{
-  background-color: grey;
+  background-color: #cac9c1;
 }
 
 header ul {
@@ -134,7 +140,7 @@ header ul li {
 }
 
 header ul li a {
-  color: rgba(255, 255, 255, 0.8);
+  color: #292627;
   text-decoration: none;
   transition: 0.5s;
   font-family: "Montserrat", sans-serif;
@@ -144,7 +150,7 @@ header ul li a {
 }
 
 header ul li a:hover {
-  color: #fb8b23;
+  color: #cac9c1;
   margin-left: 2rem;
 }
 
@@ -152,13 +158,13 @@ header .socials{
   position: absolute;
   margin-bottom: 2rem;
   margin-left: -1rem;
-  top: 63rem;
+  top: 65rem;
   left: 5.7rem;
 }
 
 header .socials i{
   font-size: 2rem;
-  color: white;
+  color: #292627;
   margin-left: 0.5rem;
   transition: 1s;
 }
@@ -172,6 +178,7 @@ header .socials i:hover{
   position: absolute;
   top: 50rem;
   left: 5rem;
+  color: #cac9c1;
 }
 
 .con h4{
@@ -186,10 +193,46 @@ header .socials i:hover{
   margin-left: 1rem;
 }
 
+  nav{
+    position: absolute;
+    left: 15rem;
+    top: 37rem;
+    margin-top: 0rem;
+  }
+
+  nav a{
+    margin-right: 1rem;
+    color: #292627;
+    border: 1px solid #292627;
+    padding: 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: 1s;
+    text-decoration: none;
+  }
+
+  nav a:hover{
+    background-color: #292627;
+    color:#cac9c1;
+    border-radius: 2rem;
+  }
+
+	.light{
+		background-color: #292627;
+		color: #cac9c1;
+	}
+
+  @media (min-width: 700px){
+
+      nav{
+        left: 26rem;
+      }
+  }
+
 @media (min-width: 900px) {
 	header {
 		background-color: transparent;
-		color: #323232;
+		color: #292627;
 		height: 8rem;
 	}
 
@@ -204,7 +247,7 @@ header .socials i:hover{
   }
 
 	header ul li a {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 0.8);
     list-style: none;
     font-family: "Montserrat", sans-serif;
     font-size: 1.2rem;
@@ -243,25 +286,13 @@ header .socials i:hover{
 
   .hero {
     width: 100%;
-    height: 50rem;
+    height: 40rem;
     overflow: hidden;
     position: relative;
-    background-image: url("../images/portfolio/liquid.gif");
+    background-color: white;
     background-position: center;
     background-size: cover;
     transition: 1s;
-  }
-
-  .hero::before {
-    display: block;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 50rem;
-    background-color: #050505;
-    opacity: 0.5;
   }
 
 .hero-content {
@@ -285,7 +316,7 @@ header .socials i:hover{
   margin-top: 0;
   padding-top: 3.2rem;
   position: relative;
-  color: rgba(0, 0, 0, 0.4);
+  color: #292627;
   -webkit-text-stroke-width: 0.7px;
   -webkit-text-stroke-color: white;
   text-transform: uppercase;
@@ -301,7 +332,7 @@ header .socials i:hover{
     content: "";
     height: 2px;
     width: 10rem;
-    background-color: #fb8b23;
+    background-color: #cac9c1;
     position: absolute;
     top: 0;
     left: 50%;
@@ -316,7 +347,7 @@ header .socials i:hover{
 @media (min-width:800px){
 
    .hero{
-     height: 40rem;
+     height: 30rem;
    }
 
     .hero-content h1 {
@@ -332,7 +363,7 @@ header .socials i:hover{
     content: "";
     height: 2px;
     width: 10rem;
-    background-color: #fb8b23;
+    background-color: #cac9c1;
     position: absolute;
     top: 0;
     left: 5.5rem;
@@ -347,9 +378,8 @@ header .socials i:hover{
 main{
   padding: 5rem;
   transition: 1s;
-  background-color: white;
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAAUVBMVEWFhYWDg4N3d3dtbW17e3t1dXWBgYGHh4d5eXlzc3OLi4ubm5uVlZWPj4+NjY19fX2JiYl/f39ra2uRkZGZmZlpaWmXl5dvb29xcXGTk5NnZ2c8TV1mAAAAG3RSTlNAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAvEOwtAAAFVklEQVR4XpWWB67c2BUFb3g557T/hRo9/WUMZHlgr4Bg8Z4qQgQJlHI4A8SzFVrapvmTF9O7dmYRFZ60YiBhJRCgh1FYhiLAmdvX0CzTOpNE77ME0Zty/nWWzchDtiqrmQDeuv3powQ5ta2eN0FY0InkqDD73lT9c9lEzwUNqgFHs9VQce3TVClFCQrSTfOiYkVJQBmpbq2L6iZavPnAPcoU0dSw0SUTqz/GtrGuXfbyyBniKykOWQWGqwwMA7QiYAxi+IlPdqo+hYHnUt5ZPfnsHJyNiDtnpJyayNBkF6cWoYGAMY92U2hXHF/C1M8uP/ZtYdiuj26UdAdQQSXQErwSOMzt/XWRWAz5GuSBIkwG1H3FabJ2OsUOUhGC6tK4EMtJO0ttC6IBD3kM0ve0tJwMdSfjZo+EEISaeTr9P3wYrGjXqyC1krcKdhMpxEnt5JetoulscpyzhXN5FRpuPHvbeQaKxFAEB6EN+cYN6xD7RYGpXpNndMmZgM5Dcs3YSNFDHUo2LGfZuukSWyUYirJAdYbF3MfqEKmjM+I2EfhA94iG3L7uKrR+GdWD73ydlIB+6hgref1QTlmgmbM3/LeX5GI1Ux1RWpgxpLuZ2+I+IjzZ8wqE4nilvQdkUdfhzI5QDWy+kw5Wgg2pGpeEVeCCA7b85BO3F9DzxB3cdqvBzWcmzbyMiqhzuYqtHRVG2y4x+KOlnyqla8AoWWpuBoYRxzXrfKuILl6SfiWCbjxoZJUaCBj1CjH7GIaDbc9kqBY3W/Rgjda1iqQcOJu2WW+76pZC9QG7M00dffe9hNnseupFL53r8F7YHSwJWUKP2q+k7RdsxyOB11n0xtOvnW4irMMFNV4H0uqwS5ExsmP9AxbDTc9JwgneAT5vTiUSm1E7BSflSt3bfa1tv8Di3R8n3Af7MNWzs49hmauE2wP+ttrq+AsWpFG2awvsuOqbipWHgtuvuaAE+A1Z/7gC9hesnr+7wqCwG8c5yAg3AL1fm8T9AZtp/bbJGwl1pNrE7RuOX7PeMRUERVaPpEs+yqeoSmuOlokqw49pgomjLeh7icHNlG19yjs6XXOMedYm5xH2YxpV2tc0Ro2jJfxC50ApuxGob7lMsxfTbeUv07TyYxpeLucEH1gNd4IKH2LAg5TdVhlCafZvpskfncCfx8pOhJzd76bJWeYFnFciwcYfubRc12Ip/ppIhA1/mSZ/RxjFDrJC5xifFjJpY2Xl5zXdguFqYyTR1zSp1Y9p+tktDYYSNflcxI0iyO4TPBdlRcpeqjK/piF5bklq77VSEaA+z8qmJTFzIWiitbnzR794USKBUaT0NTEsVjZqLaFVqJoPN9ODG70IPbfBHKK+/q/AWR0tJzYHRULOa4MP+W/HfGadZUbfw177G7j/OGbIs8TahLyynl4X4RinF793Oz+BU0saXtUHrVBFT/DnA3ctNPoGbs4hRIjTok8i+algT1lTHi4SxFvONKNrgQFAq2/gFnWMXgwffgYMJpiKYkmW3tTg3ZQ9Jq+f8XN+A5eeUKHWvJWJ2sgJ1Sop+wwhqFVijqWaJhwtD8MNlSBeWNNWTa5Z5kPZw5+LbVT99wqTdx29lMUH4OIG/D86ruKEauBjvH5xy6um/Sfj7ei6UUVk4AIl3MyD4MSSTOFgSwsH/QJWaQ5as7ZcmgBZkzjjU1UrQ74ci1gWBCSGHtuV1H2mhSnO3Wp/3fEV5a+4wz//6qy8JxjZsmxxy5+4w9CDNJY09T072iKG0EnOS0arEYgXqYnXcYHwjTtUNAcMelOd4xpkoqiTYICWFq0JSiPfPDQdnt+4/wuqcXY47QILbgAAAABJRU5ErkJggg==);
-  margin: 5rem;
+  background-color: #cac9c1;
+margin: 5rem;
 }
 
 h2 {
@@ -508,8 +538,8 @@ textarea:hover {
   footer {
     height: 15rem;
     width: 100%;
-    border-top: .1rem solid #020202;
-    background-color:#020202;
+    border-top: .1rem solid #292627;
+    background-color:#292627;
     position: relative;
   }
 
@@ -531,6 +561,11 @@ textarea:hover {
     text-decoration: none;
     font-size: 1.1rem;
     text-transform: uppercase;
+    transition: 0.5s
+  }
+
+  .licht{
+    display: none;
   }
 
   .links{
@@ -541,8 +576,7 @@ textarea:hover {
   }
 
   footer p a:hover{
-    color: #fb8b23;
-    transition: 0.5s;
+    color: #cac9c1;
 
   }
 
