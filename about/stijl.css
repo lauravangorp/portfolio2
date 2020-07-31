@@ -404,7 +404,7 @@ main{
 }
 
 .about-content .foto{
-  background-image: url("../images/foto2.jpg");
+  background-image: url("../images/foto.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   height: 58vh;
