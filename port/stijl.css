@@ -547,6 +547,10 @@ main {
   background-image: url("../images/portfolio/liquid.gif");
 }
 
+.categorie div:nth-child(22){
+  background-image: url("../images/portfolio/kaws1.png");
+}
+
 .categorie a {
   text-align: center;
   display: block;
@@ -689,6 +693,10 @@ h2 span{
     grid-column: 2/4;
     grid-row: 9/11;
     height: 65rem;
+  }
+
+  .categorie div:nth-child(22){
+    background-image: url("../images/portfolio/kaws1.png");
   }
 
   .categorie div:nth-child(15) h2 {
