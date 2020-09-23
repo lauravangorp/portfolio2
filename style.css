@@ -717,29 +717,29 @@ main{
 }
 
 .item-2 {
-  background-image: url("images/portfolio/selfbranding.png");
-  background-color: #cac9c1;
+  background-image: url("images/portfolio/blond.jpg")
 }
 
 .item-3 {
-  background-image: url("images/portfolio/blond.jpg");
-}
-
-.item-4 {
   background-image: url("images/portfolio/liquid.png");
 }
 
-.item-4:hover {
+.item-3:hover {
   background-image: url("images/portfolio/liquid.gif");
 }
 
-.item-5 {
+.item-4 {
   background-image: url("images/portfolio/skullblack.png");
 }
 
-.item-5:hover {
+.item-4:hover {
   background-image: url("images/portfolio/skullblack.gif");
 }
+
+.item-5 {
+  background-image: url("images/portfolio/kaws.png")
+}
+
 
 @media (min-width: 800px) {
 
