@@ -455,13 +455,8 @@ main span {
   padding-top: 31rem;
 }
 
-.f1{background-image: url("../images/portfolio/mailbranding.png");}
-.f2{background-image: url("../images/portfolio/back.png");
-background-position: center;}
-.f3{background-image: url("../images/portfolio/MetalMug.png");}
-.f4{background-image: url("../images/portfolio/book4.png");}
-.f5{background-image: url("../images/portfolio/book1.png");}
-.f6{background-image: url("../images/portfolio/book3.png");}
+.f1{background-image: url("../images/portfolio/ap.png");}
+
 
 @media (min-width: 800px) {
 main{
