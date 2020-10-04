@@ -152,6 +152,7 @@ body {
   header ul li a:hover {
     color: #cac9c1;
     margin-left: 2rem;
+    text-decoration: underline;
   }
 
   header .socials{
@@ -445,7 +446,7 @@ main {
 }
 
 .categorie div:nth-child(2){
-  background-image: url("../images/portfolio/self-branding.jpg");
+  background-image: url("../images/portfolio/selfbranding.png");
 }
 
 .categorie div:nth-child(3){
@@ -548,7 +549,7 @@ main {
 }
 
 .categorie div:nth-child(22){
-  background-image: url("../images/portfolio/kaws1.png");
+  background-image: url("../images/portfolio/kaws.png");
 }
 
 .categorie a {
@@ -696,7 +697,7 @@ h2 span{
   }
 
   .categorie div:nth-child(22){
-    background-image: url("../images/portfolio/kaws1.png");
+    background-image: url("../images/portfolio/kaws.png");
   }
 
   .categorie div:nth-child(15) h2 {

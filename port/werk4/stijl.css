@@ -384,9 +384,42 @@ main{
   transition: 1s;
   min-width: 40rem;
   height: 30rem;
-  background-image: url("../images/portfolio/ap.png");
+  background-image: url("images/kaws.png");
   background-size: cover;
   background-position: center;}
+
+  .foto2{
+    margin-left: auto;
+    margin-right: auto;
+    transition: 1s;
+    min-width: 40rem;
+    height: 30rem;
+    background-image: url("images/kaws2.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .foto3{
+    margin-left: auto;
+    margin-right: auto;
+    transition: 1s;
+    min-width: 40rem;
+    height: 30rem;
+    background-image: url("images/kaws3.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .foto4{
+    margin-left: auto;
+    margin-right: auto;
+    transition: 1s;
+    min-width: 40rem;
+    height: 30rem;
+    background-image: url("images/kaws4.png");
+    background-size: cover;
+    background-position: center;
+  }
 
 h2 {
   font-size: 5.5rem;
@@ -426,7 +459,7 @@ b {
 main span {
   background-color: #cac9c1; }
 
-.f1, .f2, .f3, .f4, .f5, .f6, .foto1{
+.foto2, .foto1, .foto3, .foto4{
   width: 40rem;
   height: 30rem;
   background-size: cover;
@@ -435,7 +468,7 @@ main span {
   transition: 1s;
 }
 
-.f1 p, .f2 p, .f3 p, .f4 p, .f5 p, .f6 p, .foto1 p{
+.foto2 p, .foto1 p, .foto3 p, .foto4 p{
     height: 40rem;
     width: 40rem;
     white-space: no- wrap;
@@ -450,13 +483,10 @@ main span {
     transition: 1s;
 }
 
-.f1 p:hover, .f2 p:hover, .f3 p:hover, .f4 p:hover, .f5 p:hover, .f6 p:hover, .foto1 p:hover{
+.foto2 p:hover, .foto1 p:hover, .foto3 p:hover, .foto4 p:hover{
   opacity: 1;
   padding-top: 31rem;
 }
-
-.f1{background-image: url("../images/portfolio/ap.png");}
-
 
 @media (min-width: 800px) {
 main{
@@ -465,7 +495,7 @@ main{
   grid-gap: 3rem;
 }
 
-.f1, .f2, .f3, .f4, .f5, .f6, .foto1{
+.foto1, .foto2, .foto3, .foto4{
   background-size: cover;
   background-repeat: no-repeat;
   transition: 1s;
@@ -491,9 +521,6 @@ main{
   grid-column: 3/4;
 padding-right: 20rem;}
 
-  .f1{
-    grid-column: 1;
-  }
 
 }
 
