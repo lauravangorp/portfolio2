@@ -382,11 +382,12 @@ main{
   margin-left: auto;
   margin-right: auto;
   transition: 1s;
-  min-width: 40rem;
+  max-width: 40rem;
   height: 30rem;
-  background-image: url("images/kaws.png");
-  background-size: cover;
-  background-position: center;}
+  background-image: url("images/logoshop.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;}
 
   .foto2{
     margin-left: auto;
@@ -394,8 +395,7 @@ main{
     transition: 1s;
     min-width: 40rem;
     height: 30rem;
-    background-image: url("images/kaws2.png");
-    background-size: cover;
+    background-image: url("images/Mockup1.png");
     background-position: center;
   }
 
@@ -405,8 +405,7 @@ main{
     transition: 1s;
     min-width: 40rem;
     height: 30rem;
-    background-image: url("images/kaws3.png");
-    background-size: cover;
+    background-image: url("images/Mockup2.png");
     background-position: center;
   }
 
@@ -416,10 +415,29 @@ main{
     transition: 1s;
     min-width: 40rem;
     height: 30rem;
-    background-image: url("images/kaws4.png");
-    background-size: cover;
+    background-image: url("images/Mockup3.png");
     background-position: center;
   }
+
+  .foto5{
+    margin-left: auto;
+    margin-right: auto;
+    transition: 1s;
+    min-width: 40rem;
+    height: 30rem;
+    background-image: url("images/Mockup4.png");
+    background-position: center;
+  }
+
+    .foto6{
+      margin-left: auto;
+      margin-right: auto;
+      transition: 1s;
+      min-width: 40rem;
+      height: 30rem;
+      background-image: url("images/Mockup5.png");
+      background-position: center;
+    }
 
 h2 {
   font-size: 5.5rem;
@@ -459,7 +477,7 @@ b {
 main span {
   background-color: #cac9c1; }
 
-.foto2, .foto1, .foto3, .foto4{
+.foto2, .foto3, .foto4, .foto5, .foto6{
   width: 40rem;
   height: 30rem;
   background-size: cover;
@@ -468,7 +486,7 @@ main span {
   transition: 1s;
 }
 
-.foto2 p, .foto1 p, .foto3 p, .foto4 p{
+.foto2 p, .foto1 p, .foto3 p, .foto4 p, .foto5 p, .foto6 p{
     height: 40rem;
     width: 40rem;
     white-space: no- wrap;
@@ -483,7 +501,7 @@ main span {
     transition: 1s;
 }
 
-.foto2 p:hover, .foto1 p:hover, .foto3 p:hover, .foto4 p:hover{
+.foto2 p:hover, .foto1 p:hover, .foto3 p:hover, .foto4 p:hover, .foto5 p:hover, .foto6 p:hover{
   opacity: 1;
   padding-top: 31rem;
 }
@@ -495,7 +513,7 @@ main{
   grid-gap: 3rem;
 }
 
-.foto1, .foto2, .foto3, .foto4{
+ .foto2, .foto3, .foto4, .foto5, .foto6{
   background-size: cover;
   background-repeat: no-repeat;
   transition: 1s;
