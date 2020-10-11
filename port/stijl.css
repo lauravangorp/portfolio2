@@ -456,13 +456,14 @@ main {
 }
 
 .categorie div:nth-child(4){
-  background-image: url("../images/portfolio/ap.png");
+  background-image: url("../images/portfolio/urecords.png");
   background-size: contain;
   background-repeat: no-repeat;
+  background-color: white;
 }
 
 .categorie div:nth-child(5){
-  background-image: url("../images/portfolio/web.png");
+  background-image: url("../images/portfolio/pgd-desktop.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-color: white;
@@ -565,9 +566,6 @@ main {
   padding-top: 43rem;
 }
 
-.categorie div:nth-child(25){
-  background-image: url("../images/portfolio/pgd-desktop.png");
-}
 
 .categorie a {
   text-align: center;

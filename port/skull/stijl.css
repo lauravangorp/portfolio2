@@ -309,7 +309,7 @@ header .socials i:hover{
   }
 
 .hero-content h1 {
-  max-width: 30rem;
+  max-width: 70rem;
   font-weight: 700;
   font-size: 4rem;
   line-height: 1.263;
@@ -384,7 +384,7 @@ main{
   transition: 1s;
   max-width: 40rem;
   height: 30rem;
-  background-image: url("images/logoshop.png");
+  background-image: url("images/skull.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;}
@@ -394,9 +394,7 @@ main{
     margin-right: auto;
     transition: 1s;
     min-width: 40rem;
-    height: 30rem;
-    background-image: url("images/Mockup1.png");
-    background-position: center;
+
   }
 
   .foto3{
@@ -404,9 +402,7 @@ main{
     margin-right: auto;
     transition: 1s;
     min-width: 40rem;
-    height: 30rem;
-    background-image: url("images/Mockup2.png");
-    background-position: center;
+
   }
 
   .foto4{
@@ -414,9 +410,7 @@ main{
     margin-right: auto;
     transition: 1s;
     min-width: 40rem;
-    height: 30rem;
-    background-image: url("images/Mockup3.png");
-    background-position: center;
+
   }
 
   .foto5{
