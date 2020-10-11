@@ -565,6 +565,10 @@ main {
   padding-top: 43rem;
 }
 
+.categorie div:nth-child(25){
+  background-image: url("../images/portfolio/pgd-desktop.png");
+}
+
 .categorie a {
   text-align: center;
   display: block;
@@ -718,6 +722,11 @@ h2 span{
   }
   .categorie div:nth-child(23){
     grid-column: 1/3;
+}
+
+.categorie div:nth-child(25){
+  grid-column: 3;
+  grid-row: 11;
 }
 }
 
