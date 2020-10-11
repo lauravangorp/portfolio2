@@ -556,6 +556,15 @@ main {
   background-image: url("../images/portfolio/skullblack.gif");
 }
 
+.categorie div:nth-child(24){
+  background-image: url("../images/portfolio/7.png");
+  height: 73rem;
+}
+
+.categorie div:nth-child(24) a {
+  padding-top: 43rem;
+}
+
 .categorie a {
   text-align: center;
   display: block;
