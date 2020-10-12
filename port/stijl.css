@@ -385,9 +385,9 @@ main {
 
 #filters {
   position: absolute;
-  top: 52rem;
+  top: 50rem;
   left: 6.5%;
-  margin-bottom: 10rem;
+  margin-bottom: rem;
 }
 
 .button {
@@ -422,167 +422,29 @@ main {
   font-weight: bold;
 }
 
-.categorie video{
-  max-width: 40rem;
-  z-index: 2;
-}
-
-.categorie div{
-  background-color: black;
-  height: 30rem;
-  max-width: 40rem;
-  margin-bottom: 7rem;
-  background-size: cover;
-  background-position: center;
-  margin-left: 1rem;
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-  transition: 1s;
-  text-transform: uppercase;
-}
-
-.categorie div:nth-child(1){
-  background-image: url("../images/portfolio/rebranding.png");
-}
-
-.categorie div:nth-child(2){
-  background-image: url("../images/portfolio/selfbranding.png");
-}
-
-.categorie div:nth-child(3){
-  background-image: url("../images/portfolio/branding.jpg");
-  background-color: white;
-  background-position: center;
-}
-
-.categorie div:nth-child(4){
-  background-image: url("../images/portfolio/urecords.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: white;
-}
-
-.categorie div:nth-child(5){
-  background-image: url("../images/portfolio/pgd-desktop.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: white;
-}
-
-.categorie div:nth-child(6){
-  background-image: url("../images/portfolio/shop.png" );
-}
-
-.categorie div:nth-child(7){
-  background-image: url("../images/portfolio/travis.png" );
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: #353737;
-}
-
-.categorie div:nth-child(8){
-  background-image: url("../images/portfolio/sean.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: #2195B1;
-}
-
-.categorie div:nth-child(9){
-  background-image: url("../images/portfolio/shattered.png");
-}
-
-.categorie div:nth-child(10){
-  background-color: black;
-  background-image: url("../images/portfolio/slaves.gif");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.categorie div:nth-child(11){
-  background-color: black;
-  background-image: url("../images/portfolio/complex.gif");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.categorie div:nth-child(12){
-  background-image: url("../images/portfolio/passion.gif");
-  background-size: cover;
-}
-
-.categorie div:nth-child(13){
-  background-image: url("../images/portfolio/blond.jpg");
-}
-
-.categorie div:nth-child(14){
-  background-image: url("../images/portfolio/cover.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.categorie div:nth-child(15){
-  background-image: url("../images/portfolio/poster.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.categorie div:nth-child(16){
-  background-image: url("../images/portfolio/white.jpg");}
-
-.categorie div:nth-child(17){
-  background-image: url("../images/portfolio/eigen.gif");
-  background-size: cover;}
-
-.categorie div:nth-child(18){
-  background-image: url("../images/portfolio/ogen.png");}
-
-.categorie div:nth-child(19){
-  background-image: url("../images/portfolio/wasted.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: #292929;}
-
-.categorie div:nth-child(20){
-  background-image: url("../images/portfolio/steffi.gif");
-}
-
-.categorie div:nth-child(21){
-  background-image: url("../images/portfolio/liquid.gif");
-}
-
-.categorie div:nth-child(22){
-  background-image: url("../images/portfolio/kaws.png");
-}
-
-.categorie div:nth-child(23){
-  background-image: url("../images/portfolio/skullblack.gif");
-}
-
-.categorie div:nth-child(24){
-  background-image: url("../images/portfolio/7.png");
-  height: 73rem;
-}
-
-.categorie div:nth-child(24) a {
-  padding-top: 43rem;
+.categorie{
+  column-count: 1;
 }
 
 
-.categorie a {
+img {
+	max-width: 100%;
+	display: block;
+	margin-bottom: 1.5rem;
+}
+
+main a {
   text-align: center;
   display: block;
-  top: 1rem;
-  position: relative;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.1);
-  height: 30rem;
+  break-inside: avoid;
+  margin-bottom: 3rem;
 }
 
 .categorie div h2  {
-  height: 40rem;
-  width: 40rem;
   overflow: hidden;
   text-overflow: ellipsis;
-  margin-bottom: 0px;
   text-align: left;
   font-size: 1.3rem;
   color: #292627;
@@ -590,9 +452,6 @@ main {
   line-height: 2rem;
 }
 
-.categorie a h2 {
-  padding-top: 31rem;
-}
 
 h2 span{
   margin: 1rem auto;
@@ -605,11 +464,11 @@ h2 span{
 
 @media (min-width: 900px) {
   .categorie{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 4rem 3rem;
+    column-count: 2;
+		column-gap: 5vw;
   }
 
+/*
   .categorie div h2  {
     height: 40rem;
     width: 40rem;
@@ -627,11 +486,12 @@ h2 span{
   .categorie a:hover h2 {
     opacity: 1;
     padding-top: 29.5rem;
-  }
+  }*/
 
   .categorie div{
     -webkit-filter: grayscale(100%);
-  	filter: grayscale(100%);}
+  	filter: grayscale(100%);
+  transition: all 1s;}
 
   .categorie div:hover{
     transform: scale(0.95);
@@ -643,26 +503,7 @@ h2 span{
     position: absolute;
     top: 42rem;
     left: 28%;
-    margin-bottom: 10rem;
-  }
-
-  .categorie div{
-  margin-bottom: 0rem;
-    max-width :100%;
-    max-height: auto;
-  }
-
-  .categorie div:nth-child(8){
-    background-image: url("../images/portfolio/sean.png");
-    grid-column: 1/3;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: #2195B1;
-  }
-
-  .categorie div:nth-child(9){
-    background-image: url("../images/portfolio/shattered.png");
-    grid-row: 4;
+    margin-bottom: 20rem;
   }
 }
 
@@ -670,9 +511,10 @@ h2 span{
 
 
   .categorie{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: 5rem 3rem;
+    column-count: 3;
+		column-gap: 5vw;
+    width: 90vw;
+    margin-left: 5rem;
   }
 
     #filters {
@@ -682,50 +524,6 @@ h2 span{
       margin-bottom: 10rem;
     }
 
-  .categorie div:nth-child(1){
-    background-image: url("../images/portfolio/rebranding.png");
-    grid-column: 1/3;
-    grid-row: 1/3;
-    height: 65rem;
-  }
-
-  .categorie div:nth-child(15){
-    background-image: url("../images/portfolio/poster.jpg");
-    grid-column: 1;
-    grid-row: 7/9;
-    height: 65rem;}
-
-  .categorie div:nth-child(8){
-    background-image: url("../images/portfolio/sean.png");
-    grid-row:4;
-    grid-column: 2/4;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: #2195B1;
-  }
-
-  .categorie div:nth-child(21){
-    background-image: url("../images/portfolio/liquid.gif");
-    grid-column: 2/4;
-    grid-row: 9/11;
-    height: 65rem;
-  }
-
-  .categorie div:nth-child(22){
-    background-image: url("../images/portfolio/kaws.png");
-  }
-
-  .categorie div:nth-child(15) h2 {
-    color: white;
-  }
-  .categorie div:nth-child(23){
-    grid-column: 1/3;
-}
-
-.categorie div:nth-child(25){
-  grid-column: 3;
-  grid-row: 11;
-}
 }
 
 /*footer*/
