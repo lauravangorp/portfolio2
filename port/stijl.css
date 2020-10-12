@@ -505,6 +505,14 @@ h2 span{
     left: 28%;
     margin-bottom: 20rem;
   }
+  .categorie div h2  {
+    opacity: 0;
+  }
+
+  .categorie div:hover h2 {
+    opacity: 1;
+  }
+
 }
 
 @media (min-width: 1200px) {
