@@ -127,6 +127,11 @@ header.uitgeklapt {
   background-color: #cac9c1;
 }
 
+.selected{
+  color: #cac9c1;
+
+}
+
 header ul {
 	margin-top: 8rem;
 	margin-left: 2rem;

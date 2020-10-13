@@ -98,6 +98,11 @@ div.actief .lijn:nth-child(1){transform: translateY(1rem) rotate(45deg);}
 div.actief .lijn:nth-child(3){transform: translateY(-.6rem) rotate(-45deg);}
 */
 
+.selected{
+  color: #cac9c1;
+
+}
+
 .hamburger .lijn{
   width: 3rem;
   height: .1rem;
