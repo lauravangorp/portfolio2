@@ -126,7 +126,7 @@ body {
   .hamburger:hover .lijn{
     background-color: #cac9c1;
   }
-  
+
   .selected{
     color: #cac9c1;
 
@@ -157,7 +157,6 @@ body {
   header ul li a:hover {
     color: #cac9c1;
     margin-left: 2rem;
-    text-decoration: underline;
   }
 
   header .socials{
