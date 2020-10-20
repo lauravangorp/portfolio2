@@ -455,27 +455,6 @@ b {
 main span {
   background-color: #cac9c1; }
 
-
-.foto2 p, .foto1 p, .foto3 p, .foto4 p, .foto5 p, .foto6 p, .foto7 p, .foto8 p{
-    height: 40rem;
-    width: 40rem;
-    white-space: no- wrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin-bottom: 0px;
-    opacity: 0;
-    text-align: center;
-    padding-top: 27rem;
-    font-size: 1.5rem;
-    color: #6E6E6D;
-    transition: 1s;
-}
-
-.foto2 p:hover, .foto1 p:hover, .foto3 p:hover, .foto4 p:hover, .foto5 p:hover, .foto6 p:hover, .foto7 p:hover, .foto8 p:hover{
-  opacity: 1;
-  padding-top: 31rem;
-}
-
 @media (min-width: 800px) {
 main{
   display: grid;
@@ -483,7 +462,7 @@ main{
   grid-gap: 3rem;
 }
 
- .foto2, .foto3, .foto4, .foto5, .foto6, .foto7, .foto8{
+ .foto1, .foto2, .foto3, .foto4, .foto5, .foto6, .foto7, .foto8{
   background-size: cover;
   background-repeat: no-repeat;
   transition: 1s;
@@ -504,10 +483,6 @@ main{
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 3rem;
   }
-
-  .foto1{
-  grid-column: 3/4;
-padding-right: 20rem;}
 
 
 }
