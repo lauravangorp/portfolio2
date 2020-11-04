@@ -386,7 +386,8 @@ main{
   height: 30rem;
   background-image: url("images/spooky5.png");
   background-size: contain;
-  background-position: center;}
+  background-position: center;
+  background-repeat: no-repeat;}
 
   .foto2{
     margin-left: auto;
