@@ -722,27 +722,28 @@ main{
 }
 
 .item-2 {
-  background-image: url("images/portfolio/blond.jpg")
-}
-
-.item-3 {
   background-image: url("images/portfolio/liquid.png");
 }
 
-.item-3:hover {
+.item-2:hover {
   background-image: url("images/portfolio/liquid.gif");
 }
 
-.item-4 {
+.item-3 {
   background-image: url("images/portfolio/skullblack.png");
 }
 
-.item-4:hover {
+.item-3:hover {
   background-image: url("images/portfolio/skullblack.gif");
 }
 
+.item-4 {
+  background-image: url("images/portfolio/kaws.png");
+}
+
+
 .item-5 {
-  background-image: url("images/portfolio/kaws.png")
+  background-image: url("images/portfolio/spooky5.png")
 }
 
 
