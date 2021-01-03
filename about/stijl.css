@@ -432,7 +432,7 @@ main{
 }
 
 .info .socials{
-  margin-left: 13%;
+  margin-left: 11%;
   margin-bottom: 4rem;
 }
 
@@ -446,7 +446,7 @@ font-size: 1.2rem;
 color: white;
 border: 0.2rem solid white;
 text-transform: uppercase;
-margin-left: 15%;
+margin-left: 13%;
 margin-bottom: 3rem;
 transition: 0.4s;
 }
