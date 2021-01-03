@@ -316,7 +316,7 @@ header .socials i:hover{
 .hero-content h1 {
   max-width: 30rem;
   font-weight: 700;
-  font-size: 6rem;
+  font-size: 5rem;
   line-height: 1.263;
   letter-spacing: 0;
   margin-top: 0;
@@ -328,7 +328,7 @@ header .socials i:hover{
   text-transform: uppercase;
   font-weight: 900;
   text-align: left;
-  margin-left: 14rem;
+  margin-left: 7rem;
 }
 
   /* lijn boven hero tekst */
@@ -432,7 +432,7 @@ main{
 }
 
 .info .socials{
-  margin-left: 18%;
+  margin-left: 13%;
   margin-bottom: 4rem;
 }
 
@@ -446,7 +446,7 @@ font-size: 1.2rem;
 color: white;
 border: 0.2rem solid white;
 text-transform: uppercase;
-margin-left: 23%;
+margin-left: 15%;
 margin-bottom: 3rem;
 transition: 0.4s;
 }
