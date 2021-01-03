@@ -394,18 +394,13 @@ main{
     margin-right: auto;
     transition: 1s;
     min-width: 40rem;
-    height: 30rem;
+    height: 60rem;
     background-image: url("images/poster.jpg");
     background-position: center;
   }
 
   .foto3{
-    margin-left: auto;
-    margin-right: auto;
-    transition: 1s;
-    min-width: 40rem;
-    height: 30rem;
-    background-position: center;
+
   }
 
   .foto4{
@@ -414,7 +409,6 @@ main{
     transition: 1s;
     min-width: 40rem;
     height: 30rem;
-    background-image: url("images/Mockup3.png");
     background-position: center;
   }
 
