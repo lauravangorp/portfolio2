@@ -375,6 +375,7 @@ header .socials i:hover{
 
 main{
   padding: 5rem;
+  padding-bottom: 10rem;
   transition: 1s;
 }
 
