@@ -311,7 +311,7 @@ header .socials i:hover{
 .hero-content h1 {
   max-width: 30rem;
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 3.5rem;
   line-height: 1.263;
   letter-spacing: 0;
   margin-top: 0;
@@ -323,7 +323,7 @@ header .socials i:hover{
   text-transform: uppercase;
   font-weight: 900;
   text-align: left;
-  margin-left: 7rem;
+  margin-left: 5rem;
 }
 
   /* lijn boven hero tekst */

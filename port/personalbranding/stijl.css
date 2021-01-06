@@ -323,7 +323,7 @@ header .socials i:hover{
   text-transform: uppercase;
   font-weight: 900;
   text-align: left;
-  margin-left: 13rem;
+  margin-left: 7rem;
 }
 
   /* lijn boven hero tekst */
@@ -427,12 +427,13 @@ main span {
   background-color: #cac9c1; }
 
 .foto2{
-  width: 40rem;
-  height: 30rem;
+  width: 35rem;
+  height: 25rem;
   background-size: cover;
   background-repeat: no-repeat;
   margin: 5rem 0rem;
   transition: 1s;
+  margin-left: -1.5rem;
 }
 
 .foto1 p, .foto2 p{
@@ -450,7 +451,7 @@ main span {
     transition: 1s;
 }
 
-.foto2 p:hover, .f3 p:hover, .f4 p:hover, .f5 p:hover, .f6 p:hover, .foto1 p:hover{
+.foto2 p:hover, .foto1 p:hover{
   opacity: 1;
   padding-top: 31rem;
 }
@@ -470,6 +471,10 @@ main span {
   background-repeat: no-repeat;
   transition: 1s;
   margin: 1rem 0rem;
+  }
+
+  .foto2{
+    margin-left: 0;
   }
 
   .tekst{

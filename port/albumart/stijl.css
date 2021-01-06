@@ -382,8 +382,6 @@ main{
   margin-left: auto;
   margin-right: auto;
   transition: 1s;
-  min-width: 40rem;
-  height: 30rem;
   background-image: url("images/blond.jpg");
   background-size: cover;
   background-position: center;}
@@ -392,8 +390,6 @@ main{
     margin-left: auto;
     margin-right: auto;
     transition: 1s;
-    min-width: 40rem;
-    height: 30rem;
     background-image: url("images/cover.jpg");
     background-size: cover;
     background-position: center;
@@ -438,12 +434,13 @@ main span {
   background-color: #cac9c1; }
 
 .foto2, .foto1{
-  width: 40rem;
-  height: 40rem;
+  width: 35rem;
+  height: 35rem;
   background-size: cover;
   background-repeat: no-repeat;
   margin: 5rem 0rem;
   transition: 1s;
+  margin-left: -1.5rem;
 }
 
 .foto2 p, .foto1 p{
@@ -463,7 +460,7 @@ main span {
 
 .foto2 p:hover, .foto1 p:hover{
   opacity: 1;
-  padding-top: 31rem;
+  padding-top: 36rem;
 }
 
 @media (min-width: 800px) {
@@ -478,6 +475,9 @@ main{
   background-repeat: no-repeat;
   transition: 1s;
   margin: 1rem 0rem;
+  width: 40rem;
+  height: 40rem;
+  margin-left: 0rem;
 }
 
 .tekst{

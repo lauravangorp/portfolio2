@@ -311,7 +311,7 @@ header .socials i:hover{
 .hero-content h1 {
   max-width: 30rem;
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 3.5rem;
   line-height: 1.263;
   letter-spacing: 0;
   margin-top: 0;
@@ -323,7 +323,7 @@ header .socials i:hover{
   text-transform: uppercase;
   font-weight: 900;
   text-align: left;
-  margin-left: 7rem;
+  margin-left: 5rem;
 }
 
   /* lijn boven hero tekst */
@@ -427,13 +427,17 @@ main span {
   background-color: #cac9c1; }
 
 .f1, .f2, .f3, .f4, .f5, .f6, .foto1{
-  width: 40rem;
-  height: 30rem;
+
   background-size: cover;
   background-repeat: no-repeat;
   margin: 5rem 0rem;
   transition: 1s;
+  margin-left: -2rem;
+  width: 35rem;
+  height: 25rem;
 }
+
+
 
 .f1 p, .f2 p, .f3 p, .f4 p, .f5 p, .f6 p, .foto1 p{
     height: 40rem;
@@ -444,15 +448,16 @@ main span {
     margin-bottom: 0px;
     opacity: 0;
     text-align: center;
-    padding-top: 27rem;
+    padding-top: 25rem;
     font-size: 1.5rem;
     color: #6E6E6D;
     transition: 1s;
+    margin-left: -2rem;
 }
 
 .f1 p:hover, .f2 p:hover, .f3 p:hover, .f4 p:hover, .f5 p:hover, .f6 p:hover, .foto1 p:hover{
   opacity: 1;
-  padding-top: 31rem;
+  padding-top: 27rem;
 }
 
 .f1{background-image: url("../images/portfolio/mailbranding.png");}
@@ -475,6 +480,13 @@ main{
   background-repeat: no-repeat;
   transition: 1s;
   margin: 1rem 0rem;
+  margin-left: 0rem;
+  width: 40rem;
+  height: 30rem;
+}
+
+.f1 p, .f2 p, .f3 p, .f4 p, .f5 p, .f6 p, .foto1 p{
+    margin-left: 0rem;
 }
 
 .tekst{

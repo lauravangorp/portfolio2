@@ -382,11 +382,12 @@ main{
   margin-left: auto;
   margin-right: auto;
   transition: 1s;
-  min-width: 40rem;
-  height: 60rem;
+  width: 35rem;
+  height: 55rem;
   background-image: url("images/poster.jpg");
   background-size: cover;
-  background-position: center;}
+  background-position: center;
+margin-left: -2rem;}
 
 h2 {
   font-size: 5.5rem;

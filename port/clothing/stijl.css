@@ -382,8 +382,6 @@ main{
   margin-left: auto;
   margin-right: auto;
   transition: 1s;
-  min-width: 40rem;
-  height: 30rem;
   background-image: url("images/wasted.jpg");
   background-size: cover;
   background-position: center;}
@@ -428,12 +426,13 @@ main span {
   background-color: #cac9c1; }
 
 .foto1 {
-  width: 40rem;
-  height: 40rem;
+  width: 35rem;
+  height: 35rem;
   background-size: cover;
   background-repeat: no-repeat;
   margin: 5rem 0rem;
   transition: 1s;
+  margin-left: -2rem;
 }
 
 .foto1 p{
@@ -468,6 +467,10 @@ main{
   background-repeat: no-repeat;
   transition: 1s;
   margin: 1rem 0rem;
+  width: 40rem;
+  height: 40rem;
+  margin-left: 0;
+
 }
 
 .tekst{

@@ -1002,6 +1002,11 @@ transition: 0.4s;
   .daniel{
     grid-column: 1;
   }
+
+
+      .inspo video{
+        margin-left: 0rem;
+      }
 }
 
 

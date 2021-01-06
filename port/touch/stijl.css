@@ -401,7 +401,7 @@ main{
 
 h2 {
   font-size: 5.5rem;
-  text-align: center; 
+  text-align: center;
   font-family: "archivo-black", sans-serif;
   font-weight: bold;
   font-style: italic;
@@ -438,8 +438,8 @@ main span {
   background-color: #cac9c1; }
 
 .foto2, .foto3, {
-  width: 40rem;
-  height: 30rem;
+  width: 35rem;
+  height: 25rem;
   background-size: cover;
   background-repeat: no-repeat;
   margin: 5rem 0rem;
@@ -466,6 +466,10 @@ main span {
   padding-top: 31rem;
 }
 
+video{
+  margin-left: -2rem;
+}
+
 @media (min-width: 800px) {
 main{
   display: grid;
@@ -478,6 +482,9 @@ main{
   background-repeat: no-repeat;
   transition: 1s;
   margin: 1rem 0rem;
+  margin-left: 0rem;
+  width: 40rem;
+  height: 30rem;
 }
 
 .tekst{

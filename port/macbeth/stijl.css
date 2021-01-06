@@ -311,7 +311,7 @@ header .socials i:hover{
 .hero-content h1 {
   max-width: 70rem;
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 3.5rem;
   line-height: 1.263;
   letter-spacing: 0;
   margin-top: 0;
@@ -323,7 +323,7 @@ header .socials i:hover{
   text-transform: uppercase;
   font-weight: 900;
   text-align: left;
-  margin-left: 7rem;
+  margin-left: 5rem;
 }
 
   /* lijn boven hero tekst */
@@ -380,8 +380,8 @@ main{
 
 .foto1, .foto2, .foto3, .foto4, .foto5, .foto6, .foto7, .foto8{
   background-color: black;
-  height: 73rem;
-  max-width: 40rem;
+  height: 65rem;
+  width: 35rem;
   margin-bottom: 7rem;
   background-size: cover;
   background-position: center;
@@ -392,14 +392,10 @@ main{
   text-transform: uppercase;
 }
 
-.foto1{
-  background-image: url("images/1.png");
-}
-.foto2{
-  background-image: url("images/2.png");
-}
-.foto3{
-  background-image: url("images/3.png");
+video{
+  height: 62rem;
+  width: 35rem;
+  margin-bottom: 4rem;
 }
 .foto4{
   background-image: url("images/4.png");

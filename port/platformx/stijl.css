@@ -393,8 +393,6 @@ main{
     margin-left: auto;
     margin-right: auto;
     transition: 1s;
-    min-width: 40rem;
-    height: 30rem;
     background-image: url("images/Mockup1.png");
     background-position: center;
   }
@@ -403,8 +401,6 @@ main{
     margin-left: auto;
     margin-right: auto;
     transition: 1s;
-    min-width: 40rem;
-    height: 30rem;
     background-image: url("images/Mockup2.png");
     background-position: center;
   }
@@ -413,8 +409,6 @@ main{
     margin-left: auto;
     margin-right: auto;
     transition: 1s;
-    min-width: 40rem;
-    height: 30rem;
     background-image: url("images/Mockup3.png");
     background-position: center;
   }
@@ -423,8 +417,6 @@ main{
     margin-left: auto;
     margin-right: auto;
     transition: 1s;
-    min-width: 40rem;
-    height: 30rem;
     background-image: url("images/Mockup4.png");
     background-position: center;
   }
@@ -433,8 +425,6 @@ main{
       margin-left: auto;
       margin-right: auto;
       transition: 1s;
-      min-width: 40rem;
-      height: 30rem;
       background-image: url("images/Mockup5.png");
       background-position: center;
     }
@@ -478,11 +468,12 @@ main span {
   background-color: #cac9c1; }
 
 .foto2, .foto3, .foto4, .foto5, .foto6{
-  width: 40rem;
-  height: 30rem;
+  width: 35rem;
+  height: 25rem;
   background-size: cover;
   background-repeat: no-repeat;
   margin: 5rem 0rem;
+  margin-left: -1rem;
   transition: 1s;
 }
 
@@ -518,6 +509,8 @@ main{
   background-repeat: no-repeat;
   transition: 1s;
   margin: 1rem 0rem;
+  width: 40rem;
+  height: 30rem;
 }
 
 .tekst{
