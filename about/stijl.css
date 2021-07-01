@@ -608,6 +608,10 @@ transition: 0.4s;
     background: linear-gradient(to right, #36ff00, #fffe00);
   }
 
+  .progress-theme-6 {
+    background: linear-gradient(to right, #c41432, #fc5a44);
+  }
+
   .progress-active {
     height: 100%;
     transition: transform 0.4s ease, width 1s ease;
