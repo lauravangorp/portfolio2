@@ -1,18 +1,18 @@
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: white;
-  font-weight: normal;
+  background-color: #101010;
   line-height: 1;
   color: white;
   height: 100%;
-  }
+  font-weight: lighter;
+}
 
 /* site header */
 
 header {
 	height: 7rem;
-	background-color:white;
-	color: #cccccc;
+	background-color:#101010;
+	color: white;
 	transition-property: height;
 	transition-duration: .5s;
 	padding: .8rem 2rem;
@@ -26,13 +26,10 @@ header {
 
 .fixed{
   position: fixed;
-  background-color: white;
   left: 0;
   top: 0;
   width: 100vw;
-  -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
-  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
-  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+
 }
 
 .header-logo {
@@ -52,7 +49,7 @@ header {
 .header-logo::before {
   content:"";
   display: block;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: white;
   height: 0.1rem;
   position: absolute;
   width: 3.6rem;
@@ -90,10 +87,15 @@ div.actief .lijn:nth-child(1){transform: translateY(1rem) rotate(45deg);}
 div.actief .lijn:nth-child(3){transform: translateY(-.6rem) rotate(-45deg);}
 */
 
+.selected{
+  color: #C1BDA4;
+
+}
+
 .hamburger .lijn{
   width: 3rem;
   height: .1rem;
-  background-color: #292627;
+  background-color: white;
   display: block;
   margin: .7rem auto;
   transition: all 0.3s ease-in-out;
@@ -116,7 +118,7 @@ div.actief .lijn:nth-child(3){
 
 header.uitgeklapt {
 	height: 100vh;
-  background-color: white;
+  background-color: #101010;
 }
 
 .hamburger:hover{
@@ -124,7 +126,7 @@ header.uitgeklapt {
 }
 
 .hamburger:hover .lijn{
-  background-color: #cac9c1;
+  background-color: #C1BDA4;
 }
 
 header ul {
@@ -135,12 +137,12 @@ header ul {
 
 header ul li {
 	margin-bottom: 2rem;
-	border-bottom: .1rem solid lightgrey;
+	border-bottom: .1rem solid white;
 	padding-bottom: 2rem;
 }
 
 header ul li a {
-  color: #292627;
+  color: white;
   text-decoration: none;
   transition: 0.5s;
   font-family: "Montserrat", sans-serif;
@@ -150,7 +152,7 @@ header ul li a {
 }
 
 header ul li a:hover {
-  color: #cac9c1;
+  color: #C1BDA4;
   margin-left: 2rem;
 }
 
@@ -164,7 +166,7 @@ header .socials{
 
 header .socials i{
   font-size: 2rem;
-  color: #292627;
+  color: #C1BDA4;
   margin-left: 0.5rem;
   transition: 1s;
 }
@@ -178,7 +180,7 @@ header .socials i:hover{
   position: absolute;
   top: 50rem;
   left: 5rem;
-  color: #cac9c1;
+  color: white;
 }
 
 .con h4{
@@ -202,7 +204,7 @@ header .socials i:hover{
 
   nav a{
     margin-right: 1rem;
-    color: #292627;
+    color: white;
     border: 1px solid #292627;
     padding: 1rem;
     font-size: 1rem;
@@ -212,12 +214,12 @@ header .socials i:hover{
   }
 
   nav a:hover{
-    background-color: #292627;
+    background-color: #C1BDA4;
     color:#cac9c1;
     border-radius: 2rem;
   }
 
-	.light{
+	.dark{
 		background-color: #292627;
 		color: #cac9c1;
 	}
@@ -231,8 +233,8 @@ header .socials i:hover{
 
 @media (min-width: 900px) {
 	header {
-		background-color: transparent;
-		color: #292627;
+		background-color: #101010;
+		color: white;
 		height: 8rem;
 	}
 
@@ -247,7 +249,7 @@ header .socials i:hover{
   }
 
 	header ul li a {
-    color: rgba(0, 0, 0, 0.8);
+    color: white;
     list-style: none;
     font-family: "Montserrat", sans-serif;
     font-size: 1.2rem;
@@ -281,7 +283,6 @@ header .socials i:hover{
     display: none;
     }
 }
-
 /* hero */
 
   .hero {
@@ -289,7 +290,6 @@ header .socials i:hover{
     height: 40rem;
     overflow: hidden;
     position: relative;
-    background-color: white;
     background-position: center;
     background-size: cover;
     transition: 1s;
@@ -310,20 +310,21 @@ header .socials i:hover{
 
 .hero-content h1 {
   max-width: 30rem;
-  font-weight: 700;
-  font-size: 3.5rem;
+
+  font-size: 4rem;
   line-height: 1.263;
   letter-spacing: 0;
   margin-top: 0;
   padding-top: 3.2rem;
   position: relative;
-  color: #292627;
-  -webkit-text-stroke-width: 0.7px;
+  color: rgba(0, 0, 0, 0);   ;
+  -webkit-text-stroke-width: 0.8px;
   -webkit-text-stroke-color: white;
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight:bolder;
+  font-family: 'Archivo Black', sans-serif;
   text-align: left;
-  margin-left: 5rem;
+  margin-left: 7rem;
 }
 
   /* lijn boven hero tekst */
@@ -388,43 +389,44 @@ main{
   background-size: cover;
   background-position: center;}
 
-h2 {
-  font-size: 5.5rem;
-  text-align: center;
-  font-family: "archivo-black", sans-serif;
-  font-weight: bold;
-  font-style: italic;
-  color: #E06702;
-  padding-top: 1.5rem;
-  color: black;}
+  h2 {
+    font-size: 5.5rem;
+    text-align: center;
+    font-family: "archivo-black", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    padding-top: 1.5rem;
+    color: black;}
 
-.tekst {
-  margin-top: 5rem auto;
+  .tekst {
+    margin-top: 5rem auto;
 
-  color: black;}
+    color: white;}
 
-.tekst p {
-  font-size: 1.7rem;
-  line-height: 1.8;
-  color: black;
-}
+  .tekst p {
+    font-size: 1.7rem;
+    line-height: 1.8;
+    color: white;
+  }
 
-.text {
-  margin: 2rem 2rem;
-  text-align: left;
-  color: black;
-}
+  .text {
+    margin: 2rem 2rem;
+    text-align: left;
+    color: white;
+  }
 
-b {
-  font-size: 2rem;
-  text-align: center;
-  font-size: 2rem;
-  font-style: italic;
-  color: black;
-}
+  b {
+    font-size: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+    color: white;
+  }
 
-main span {
-  background-color: #cac9c1; }
+  main span {
+    background-color: #cac9c1; }
+
 
 .f1, .f2, .f3, .f4, .f5, .f6, .foto1{
 
@@ -520,8 +522,8 @@ padding-right: 20rem;}
   footer {
     height: 15rem;
     width: 100%;
-    border-top: .1rem solid #292627;
-    background-color:#292627;
+    border-top: .1rem solid #101010;
+    background-color:#101010;
     position: relative;
   }
 
@@ -558,8 +560,7 @@ padding-right: 20rem;}
   }
 
   footer p a:hover{
-    color: #cac9c1;
-
+    color: #C1BDA4;
   }
 
   .logo{
@@ -623,4 +624,5 @@ padding-right: 20rem;}
     .socials{
       margin-left: 7%;
     }
+
 }
