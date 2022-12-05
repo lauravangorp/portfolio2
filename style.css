@@ -677,18 +677,16 @@ main{
 /*work deel*/
 
 .work {
-
-    padding: 15rem auto;
+    padding: 5rem auto;
     position: relative;
     margin-left:1rem;
-
     }
 
 .work h3 {
     font-size: 3rem;
     text-transform: uppercase;
-    margin-bottom: 5rem;
-    margin-top: 5rem;
+
+
     margin-left: 0rem;
   }
 
@@ -735,7 +733,7 @@ main{
   flex-direction: row;
   width: 100%;
   height: 60vh;
-  margin-top: 20rem;
+  margin-top: 5rem;
 }
 
 .item {
@@ -745,7 +743,6 @@ main{
   background-size: cover;
   background-repeat: none;
   transition: all 1s;
-
 }
 
 .item:hover{
@@ -934,9 +931,7 @@ donkergrijs: #101010*/
     font-size: 4rem;
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 5rem;
     margin-left: 3rem;
-    padding-top: 3rem;
   }
 
 .portfolio h4 {
@@ -1029,7 +1024,7 @@ donkergrijs: #101010*/
 
   .portfolio {
 			display: grid;
-			grid-template-columns: 1fr 1fr 1fr 1fr;
+			grid-template-columns: 1fr 1fr;
       margin-left: 0rem;
       margin-top: -15rem;
   }
